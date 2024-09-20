@@ -1,17 +1,19 @@
+.body {
+    margin: auto;
+}
+
 #header {
-    margin-block: 1%;
-    margin-inline: 1%;
+    width: 96%;
+    padding: 2%;
+    background-color: rgb(144, 108, 89);
 }
 
 #clock {
-    font-size: 50px;
+    font-size: 4vw;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    text-align: right;
-}
-
-#clock {
+    color: rgb(13, 76, 33);
     float: right;
+    background-color: brown;
 }
 
 #logo {
@@ -19,8 +21,7 @@
 }
 
 .logo {
-    width: 800px;
-    border: 50px;
+    width: 45%;
 }
 
 .map {
@@ -28,4 +29,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+}
+
+#base {
+    background-color: rosybrown;
 }
