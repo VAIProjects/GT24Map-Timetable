@@ -10,10 +10,6 @@
     text-align: right;
 }
 
-#logo {
-    float: left;
-}
-
 #clock {
     float: right;
 }
@@ -22,7 +18,14 @@
     float: left;
 }
 
-img {
+.logo {
     width: 800px;
     border: 50px;
+}
+
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
