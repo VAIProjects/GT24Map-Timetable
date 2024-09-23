@@ -8,15 +8,15 @@ function showTime() {
     let hour = time.getHours();
     let min = time.getMinutes();
     let sec = time.getSeconds();
-    am_pm = "AM";
+    am_pm = "am";
  
     // Setting time for 12 Hrs format
     if (hour >= 12) {
         if (hour > 12) hour -= 12;
-        am_pm = "PM";
+        am_pm = "pm";
     } else if (hour == 0) {
         hr = 12;
-        am_pm = "AM";
+        am_pm = "am";
     }
  
     hour =
