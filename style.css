@@ -87,21 +87,17 @@ p {
     font-size: 0.9vw; 
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
     }
 
 .line {
         position: fixed;
-        left: 78.5%;
-        top: 32%;      
-        width: 2px;
-        height: 120px;
         font-size:20px;
         color:#fff;
-        line-height:100px;
-        background: green;
+        height: 305%;
+        width: 2px;
+        background: black;
     }
 
-    .overlay-text-chapel > span, .overlay-text-chapel > p {
+    .overlay-text-chapel > span {
         display: inline-block;
       }
