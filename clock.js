@@ -48,11 +48,11 @@ const date1 = new Date();
 const hour1 = date.getHours();
 
 if (hour < 10) {
-  div1.style.Color = 'white';
+  div.style.Color = 'white';
 } else if (hour > 13) {
-  div1.style.Color = 'white';
+  div.style.Color = 'white';
 } else {
-  div1.style.Color = 'black';
+  div.style.Color = 'black';
 }
 
 //1.00PM-2.00PM
@@ -62,11 +62,11 @@ const date2 = new Date();
 const hour2 = date.getHours();
 
 if (hour < 13) {
-  div2.style.Color = 'white';
+  div.style.Color = 'white';
 } else if (hour > 14) {
-  div2.style.Color = 'white';
+  div.style.Color = 'white';
 } else {
-  div2.style.Color = 'black';
+  div.style.Color = 'black';
 }
 
 //2.00PM-6.00PM
@@ -76,11 +76,11 @@ const date3 = new Date();
 const hour3 = date.getHours();
 
 if (hour < 14) {
-  div3.style.Color = 'white';
+  div.style.Color = 'white';
 } else if (hour > 18) {
-  div3.style.Color = 'white';
+  div.style.Color = 'white';
 } else {
-  div3.style.Color = 'black';
+  div.style.Color = 'black';
 }
 
 //6.00PM
@@ -90,9 +90,9 @@ const date4 = new Date();
 const hour4 = date.getHours();
 
 if (hour < 18) {
-  div4.style.Color = 'white';
+  div.style.Color = 'white';
 } else if (hour < 18) {
-  div4.style.Color = 'black';
+  div.style.Color = 'black';
 } else {
-  div4.style.Color = 'black';
+  div.style.Color = 'black';
 }
