@@ -40,59 +40,31 @@ function showTime() {
  
 showTime();
 
-//GREAT HALL
-//9.30AM-1.00PM
+//Drawing Room
+//10.00AM-11.40AM
+const body = document.querySelector('.overlay-text-drawing-1');
+const date = new Date();
+const hour = date.getHours();
+const min = date.getMinutes();
 
-const div1 = document.querySelector('.overlay-text-great-1');
+if (hour < 10 ) {
+  body.style.color = 'white';
+} else if (hour >= 11 && min > 40) {
+  body.style.color = 'white';
+} else {
+  body.style.color = 'black';
+}
+
+//11.40AM-12.00AM
+const body1 = document.querySelector('.overlay-text-drawing-1');
 const date1 = new Date();
 const hour1 = date.getHours();
+const min1 = date.getMinutes();
 
-if (hour < 10) {
-  div.style.Color = 'white';
-} else if (hour > 13) {
-  div.style.Color = 'white';
+if (hour <= 11 && min <= 40) {
+  body1.style.color = 'white';
+} else if (hour >= 12 && min >= 50) {
+  body1.style.color = 'white';
 } else {
-  div.style.Color = 'black';
-}
-
-//1.00PM-2.00PM
-
-const div2 = document.querySelector('.overlay-text-great-2');
-const date2 = new Date();
-const hour2 = date.getHours();
-
-if (hour < 13) {
-  div.style.Color = 'white';
-} else if (hour > 14) {
-  div.style.Color = 'white';
-} else {
-  div.style.Color = 'black';
-}
-
-//2.00PM-6.00PM
-
-const div3 = document.querySelector('.overlay-text-great-3');
-const date3 = new Date();
-const hour3 = date.getHours();
-
-if (hour < 14) {
-  div.style.Color = 'white';
-} else if (hour > 18) {
-  div.style.Color = 'white';
-} else {
-  div.style.Color = 'black';
-}
-
-//6.00PM
-
-const div4 = document.querySelector('.overlay-text-great-4');
-const date4 = new Date();
-const hour4 = date.getHours();
-
-if (hour < 18) {
-  div.style.Color = 'white';
-} else if (hour < 18) {
-  div.style.Color = 'black';
-} else {
-  div.style.Color = 'black';
+ body1.style.color = 'yellow';
 }
