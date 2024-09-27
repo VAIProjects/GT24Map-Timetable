@@ -322,7 +322,7 @@ p {
     transform: translate(-50%, -50%); 
     padding: 1px 1px; 
     font-size: 0.9vw; 
-    text-align: left;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -345,18 +345,10 @@ p {
     color: #000; 
     padding: 1px 1px; 
     font-size: 0.9vw; 
-    text-align: left;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     }
 
-.drawing-line-2 {
-    position: fixed;
-    font-size:20px;
-    color:#fff;
-    height: 385%;
-    width: 2px;
-    background: black;
-    }
 
 /*12.00PM-1.00PM*/
 
@@ -368,41 +360,26 @@ p {
     color: #000; 
     padding: 1px 1px; 
     font-size: 0.9vw; 
-    text-align: left;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     }
 
-.drawing-line-3 {
-    position: fixed;
-    font-size:20px;
-    color:#fff;
-    height: 385%;
-    width: 2px;
-    background: black;
-    }
 
 /*1.00PM-2.00PM*/
 
 .overlay-text-drawing-4 {
     position:fixed;
-    left: 47.5%; 
+    left: 47%; 
     top: 32%;
     transform: translate(-50%, -50%); 
     color: #000; 
     padding: 1px 1px; 
     font-size: 0.9vw; 
-    text-align: left;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     }
 
-.drawing-line-4 {
-    position: fixed;
-    font-size:20px;
-    color:#fff;
-    height: 385%;
-    width: 2px;
-    background: black;
-    }
+
 
 /*2.00PM-3.10PM*/
 
@@ -414,18 +391,10 @@ p {
     color: #000; 
     padding: 1px 1px; 
     font-size: 0.9vw; 
-    text-align: left;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     }
 
-.drawing-line-5 {
-    position: fixed;
-    font-size:20px;
-    color:#fff;
-    height: 385%;
-    width: 2px;
-    background: black;
-    }
 
 /*3.10PM-3.30PM*/
 
@@ -437,18 +406,10 @@ p {
     color: #000; 
     padding: 1px 1px; 
     font-size: 0.9vw; 
-    text-align: left;
+    text-align:justify;
     font-family: Arial, Helvetica, sans-serif;
     }
 
-.drawing-line-6 {
-    position: fixed;
-    font-size:20px;
-    color:#fff;
-    height: 385%;
-    width: 2px;
-    background: black;
-    }
 
 /*3.30PM-5.30PM*/
 
@@ -460,18 +421,11 @@ p {
     color: #000; 
     padding: 1px 1px; 
     font-size: 0.9vw; 
-    text-align: left;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     }
 
-.drawing-line-7 {
-    position: fixed;
-    font-size:20px;
-    color:#fff;
-    height: 385%;
-    width: 2px;
-    background: black;
-    }
+
 
 /*5.30PM-6.00PM*/
 
@@ -483,18 +437,11 @@ p {
     color: #000; 
     padding: 1px 1px; 
     font-size: 0.9vw; 
-    text-align: left;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     }
 
-.drawing-line-8 {
-    position: fixed;
-    font-size:20px;
-    color:#fff;
-    height: 385%;
-    width: 2px;
-    background: black;
-    }
+
 
 /*THE GREAT HALL*/
 

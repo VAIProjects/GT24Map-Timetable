@@ -47,24 +47,38 @@ const date = new Date();
 const hour = date.getHours();
 const min = date.getMinutes();
 
-if (hour < 10 ) {
+if (hour < 10.00 ) {
   body.style.color = 'white';
-} else if (hour >= 11 && min > 40) {
+} else if (hour >= 11.40) {
   body.style.color = 'white';
 } else {
-  body.style.color = 'black';
+  body.style.color = 'yellow';
 }
 
 //11.40AM-12.00AM
-const body1 = document.querySelector('.overlay-text-drawing-1');
+const body1 = document.querySelector('.overlay-text-drawing-2');
 const date1 = new Date();
 const hour1 = date.getHours();
 const min1 = date.getMinutes();
 
-if (hour <= 11 && min <= 40) {
+if (hour <= 11.40) {
   body1.style.color = 'white';
-} else if (hour >= 12 && min >= 50) {
+} else if (hour >= 12.00) {
   body1.style.color = 'white';
 } else {
- body1.style.color = 'yellow';
+ body1.style.color = 'blue';
+}
+
+//12.00PM-1.00PM
+const body2 = document.querySelector('.overlay-text-drawing-3');
+const date2 = new Date();
+const hour2 = date.getHours();
+const min2 = date.getMinutes();
+
+if (hour <= 12.00) {
+  body2.style.color = 'white';
+} else if (hour >= 13.00) {
+  body2.style.color = 'white';
+} else {
+ body2.style.color = 'green';
 }
