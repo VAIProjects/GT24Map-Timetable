@@ -2,10 +2,37 @@
     margin: auto;
 }
 
-#header {
-    width: 96%;
-    padding: 2%;
-    background-color: white;
+/*Left Block*/
+.container-left {
+    float: left;
+    width: 40%;
+    min-height: 100vh;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Event Logo Block*/
+#eventlogo {
+    border-radius: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  
+/* Event Logo Image */
+  .container-left img {
+    position: relative;
+    max-height: 25vh;
+    max-width: 80%;
+    padding-left: 5%;
+  }
+
+/*Right Block*/
+.container-right {
+    float: right;
+    width: 60%;
+    min-height: 100vh;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
 }
 
 #clock {
@@ -15,9 +42,46 @@
     color: black;
     float: right;
     background-color: white;
+    padding-top: 2%;
+    padding-right: 3%;
 }
 
-#logo {
+#imagery {
+    min-height: 100vh;
+    position: relative;
+}
+
+.container-right img {
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#logo {
     float: left;
 }
 
@@ -39,7 +103,7 @@
 p {
     color: white;
     font-size: 1vw;
-}
+}/*
 
 /*THE JOHNSON ROOM*/
 /*10.00AM-11.40AM*/
@@ -315,7 +379,7 @@ p {
 /*THE DRAWING ROOM*/
 
 /*10.00AM-11.40AM*/
-.overlay-text-drawing-1 {
+/*.overlay-text-drawing-1 {
     position:fixed;
     left: 47.5%; 
     top: 32%;
@@ -324,16 +388,16 @@ p {
     font-size: 0.9vw; 
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    }
+    }*/
 
-.drawing-line-1 {
+/*.drawing-line-1 {
     position: fixed;
     font-size:20px;
     color:#fff;
     height: 385%;
     width: 2px;
     background: black;
-    }
+    }*/
 
 /*11.40AM-12.00PM*/
 
