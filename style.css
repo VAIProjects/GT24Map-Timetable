@@ -2,7 +2,7 @@
     margin: auto;
 }
 
-/*Left Block*/
+/* Left Block */
 .container-left {
     float: left;
     width: 40%;
@@ -11,7 +11,7 @@
     background-color: rgb(255, 255, 255);
 }
 
-/* Event Logo Block*/
+/* Event Logo Block */
 #eventlogo {
     border-radius: 0;
     background-color: rgb(255, 255, 255);
@@ -24,8 +24,40 @@
     max-width: 80%;
     padding-left: 5%;
   }
+/* Johnson Room */
+  .johnson-room {
+    max-height: 25vh;
+    max-width: 100%;
+    position: relative;
+    font-size: calc(0.8vw + 0.8vh);
+    padding-left: 5%;
+  }
 
-/*Right Block*/
+  .johnson-room-text {
+    float: right;
+    width: 95%;
+    font-size: calc(0.8vw + 0.8vh);
+    overflow: auto;
+  }
+
+  /* Great Hall */
+
+  .great-hall {
+    max-height: 25vh;
+    max-width: 100%;
+    position: relative;
+    font-size: calc(0.8vw + 0.8vh);
+    padding-left: 5%;
+  }
+
+  .great-hall-text {
+    float: right;
+    width: 95%;
+    font-size: calc(0.8vw + 0.8vh);
+    overflow: auto;
+  }
+
+/* Right Block */
 .container-right {
     float: right;
     width: 60%;
