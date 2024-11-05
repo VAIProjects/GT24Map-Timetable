@@ -21,8 +21,8 @@
   .container-left img {
     position: relative;
     max-height: 25vh;
-    max-width: 80%;
-    padding-left: 5%;
+    max-width: 90%;
+    padding-left: 10%;
   }
 /* Johnson Room */
   .johnson-room {
@@ -30,7 +30,7 @@
     max-width: 100%;
     position: relative;
     font-size: calc(0.8vw + 0.8vh);
-    padding-left: 5%;
+    padding-left: 10%;
   }
 
   .johnson-room-text {
@@ -47,7 +47,7 @@
     max-width: 100%;
     position: relative;
     font-size: calc(0.8vw + 0.8vh);
-    padding-left: 5%;
+    padding-left: 10%;
   }
 
   .great-hall-text {
@@ -56,6 +56,25 @@
     font-size: calc(0.8vw + 0.8vh);
     overflow: auto;
   }
+
+/* Drawing Room*/
+
+.drawing-room {
+    max-height: 25vh;
+    max-width: 100%;
+    position: relative;
+    font-size: calc(0.8vw + 0.8vh);
+    padding-left: 10%;
+  }
+
+  .drawing-room-text {
+    float: right;
+    width: 95%;
+    font-size: calc(0.8vw + 0.8vh);
+    overflow: auto;
+  }
+
+
 
 /* Right Block */
 .container-right {
