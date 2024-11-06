@@ -25,6 +25,19 @@
 
   /* Main Content */
 
+#main-content {
+  border-radius: 0;
+  background-color: aqua;
+  overflow: auto;
+}
+
+/* Map Image Centered */
+
+#main-content img {
+    height: 100%;
+    padding
+}
+
 
 
 
