@@ -38,8 +38,24 @@
   margin-left: auto;
   margin-right: auto;
   overflow: auto;
-  max-width: 50%;
-  padding: 13%;
+  width: 100%;
+}
+
+/* Drawing Room*/
+
+.drawing-room {
+  max-height: 25vh;
+  max-width: 100%;
+  position: relative;
+  font-size: calc(0.8vw + 0.8vh);
+  padding-left: 10%;
+}
+
+.drawing-room-text {
+  float: right;
+  width: 95%;
+  font-size: calc(0.8vw + 0.8vh);
+  overflow: auto;
 }
 
 
