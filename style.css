@@ -6,13 +6,13 @@
     font-weight: 600;
     color: black;
     float: right;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
     padding: 2%;
 }
 
 #header {
     border-radius: 0;
-    background-color: rgb(8, 95, 14);
+    background-color: rgb(255, 255, 255);
     overflow: auto;
   }
   
@@ -27,15 +27,19 @@
 
 #main-content {
   border-radius: 0;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   overflow: auto;
 }
 
 /* Map Image Centered */
 
 #main-content img {
-    height: 100%;
-    padding
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  max-width: 50%;
+  padding: 13%;
 }
 
 
